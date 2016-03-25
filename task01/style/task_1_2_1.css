@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DEDEDE;
+}
+header, footer{
+    height: 50px;
+    background-color: #333333;
+    overflow: hidden;
+}
+.top {
+    margin: 5px 5% ;
+    overflow: hidden;
+}
+header img {
+    float: left;
+    width: 120px;
+    height: 40px;
+}
+.top ul {
+    float: right;
+    margin: 0;
+    line-height: 40px;
+}
+.top li {
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+.top li a {
+    color: #FFF;
+}
+.top li a:link,
+.top li a:visited {
+    text-decoration: none;
+}
+/* main start */
+article, aside {
+    margin: 30px 5% ;
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 1px 1px 3px #8B8B8B;
+}
+article h3 {
+    color: #5F6C75;
+}
+article address {
+    font-style: normal;
+    color: #888F97;
+}
+article p {
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+article ul {
+    list-style: none;
+}
+.image-text {
+    border: 1px solid #000;
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px 50px;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border: 1px solid #DEDEDE;
+    text-align: left;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 5px;
+    border: 1px solid #DEDEDE;
+}
+th {
+    background-color: #333333;
+    color: #FFF;
+}
+.summary td {
+    background-color: #CCCCCC;
+}
+aside h3 {
+    padding: 5px 0 5px 5px;
+    border-left: 5px solid #DEDEDE;
+}
+aside form {
+    width: 600px;
+    margin: 5px auto;
+}
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: right;
+}
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    height: 20px;
+}
+span.illustration {
+    color: #afafaf;
+    font-size: 12px;
+}
+label.gender-multi {
+    width: 290px;
+}
+label.hobby-multi {
+    width: 404px;
+}
+label.multi input {
+    width: 20px;
+    height: 15px;
+}
+textarea {
+    width: 200px;
+    height: 100px;
+}
+label[for="detail"] {
+    position: relative;
+    top: -90px;
+}
+input[type="submit"] {
+    background-color: #6d8ab7;
+    font-size: 20px;
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 0 auto 10px;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}

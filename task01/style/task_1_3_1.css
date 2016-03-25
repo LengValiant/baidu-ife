@@ -1,0 +1,45 @@
+.member,
+.introduction_wrap,
+.icon,
+.container {
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #FFF;
+}
+img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.last-img {
+    margin-bottom: 0;
+}
+.container {
+    background-color: #eee;
+    overflow: hidden;
+    min-width: 600px;
+}
+
+.introduction {
+    float: left;
+    width: 100%;
+}
+.introduction_wrap {
+    margin: 0 140px 0 220px;
+    min-width: 198px;
+}
+.icon {
+    width: 158px;
+    float: left;
+    margin-left: -100%;
+    text-align: center;
+}
+.icon h1 {
+    font-size: 16px;
+}
+.member {
+    float: left;
+    width: 78px;
+    margin-left: -120px;
+}
+

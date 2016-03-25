@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DEDEDE;
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    min-width: 600px;
+}
+/*这里是头部*/
+header,
+footer {
+    height: 50px;
+    background-color: #333333;
+}
+header .top {
+    margin: 0 5%;
+}
+.top img {
+    width: 120px;
+    height: 40px;
+    margin: 5px 0;
+}
+.top ul {
+    display: inline-block;
+    float: right;
+    margin-right: -20px;
+}
+.top li {
+    margin-right: 20px;
+    float: left;
+}
+.top li a {
+    text-decoration: none;
+    color: #FFF;
+}
+/* This is the main part.*/
+.container {
+    position: relative;
+    margin: 30px 5% 0;
+    overflow: hidden;
+}
+main {
+    margin-right: 380px;
+}
+article {
+    margin-bottom: 30px;
+    background-color: #FFF;
+    padding: 25px;
+    overflow: hidden;
+}
+article h3 {
+    color: #5F6C75;
+}
+article address {
+    font-style: normal;
+    color: #8B8B8B;
+}
+article img {
+    width: 90%;
+}
+article .image-text {
+    float: left;
+    width: 120px;
+    border: 1px solid #ccc;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+article .image-text img {
+    width: 80%;
+}
+/*文内表格*/
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #CCC;
+}
+table th {
+    color: #FFF;
+    background-color: #333;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+table td {
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+.summary td {
+    background-color: #CCC;
+    font-weight: bold;
+}
+/*侧栏*/
+aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    padding: 25px;
+    background-color: #FFF;
+}
+aside h3 {
+    border-left: 5px solid #CDCDCD;
+    padding-left: 5px;
+}
+form label.exp-text {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+form span {
+    display: block;
+    color: #CCC;
+    font-size: 12px;
+    position: relative;
+    left: 120px;
+}
+textarea {
+    display: inline-block;
+    vertical-align: text-top;
+}
+input[type="submit"] {
+    display: block;
+    width: 90%;
+    height: 35px;
+    margin: 20px auto 0;
+    font-size: 16px;
+    color: #FFF;
+    background-color: #6E6EC6;
+    border-radius: 10px;
+}
+/*版权信息*/
+footer {
+    font-size: 16px;
+    color: #FFF;
+    text-align: center;
+    line-height: 50px;
+}

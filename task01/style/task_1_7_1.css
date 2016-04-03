@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul,li {
+    list-style: none;
+}
+body {
+    min-width: 1280px;
+}
+.nav {
+    margin: 0 60px;
+    overflow: hidden;
+}
+a.logo {
+    display: inline-block;
+    height: 57px;
+    font: 21px "黑体";
+    color: #000;
+    background: url(../images/task_1_7_1.png) no-repeat left center;
+}
+.logo span {
+    padding-left: 40px;
+    line-height: 57px;
+}
+.login {
+    float: right;
+    height: 57px;
+    margin-left: 30px;
+    padding-left: 20px;
+    background: url(../images/task_1_7_2.png) no-repeat left center;
+}
+.login a {
+    font-size: 14px;
+    color: #e74f4d;
+    line-height: 57px;
+}
+.nav ul {
+    float: right;
+}
+.nav li {
+    display: inline-block;
+    font-size: 14px;
+}
+li a {
+    display: block;
+    width: 80px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    transition: all .3s;
+}
+.nav li a:link,
+.nav li a:visited {
+    color: #bbb;
+}
+.nav li a:hover,
+.nav li a:active,
+.nav li a.selected {
+    color: #e74f4d;
+    border-bottom: 5px solid #e74f4d;
+}
+.focus-map {
+    position: relative;
+    color: #fff;
+}
+.focus-map img {
+    width: 100%;
+    height: 690px;
+    webkit-filter: brightness(0.7);
+    -moz-filter: brightness(0.7);
+    -o-filter: brightness(0.7);
+    filter: brightness(0.7); /* 修改透明度*/
+}
+.focus-text {
+    position: absolute;
+    top: 270px;
+    left: 115px;
+}
+.focus-text h1 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 60px;
+}
+.focus-text h2 {
+    margin-bottom: 65px;
+    font-weight: normal;
+    font-size: 21px;
+}
+.focus-text a {
+    display: block;
+    width: 330px;
+    height: 66px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #e74f4d;
+    text-align: center;
+    line-height: 60px;
+}
+.feature {
+    overflow: hidden;
+}
+.feature .part {
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 25%;
+    text-align: center;
+    font: 14px "黑体";
+    color: #767777;
+}
+.part p span {
+    display: inline-block;
+    width: 11em;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+.part p {
+    margin: 30px 0;
+    border-left: 2px solid #bbb;
+}
+.part:first-child p {
+    border-left: none;
+}
+section {
+    clear: both;
+}
+.info-title {
+    width: 100%;
+    height: 360px;
+    background-color: #ededed;
+    text-align: center;
+}
+.info-title img {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto ;
+    padding: 80px 0 0;
+}
+.info-title h1 {
+    display: inline-block;
+    padding: 50px;
+    margin-bottom: 40px;
+    font: 54px "黑体";
+    color: #323333;
+}
+.search {
+    position: relative;
+    background: url(../images/task_1_7_8.png) no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.search * {
+    position: relative;
+    z-index: 10;
+}
+.search .options {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    padding-bottom: 115px;
+    /*position: absolute;*/
+    /*height: 36px;*/
+    text-align: center;
+    /*bottom: 119px;*/
+    width: 100%;
+}
+.search:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 340px;
+    background-color: #aa3433;
+    opacity: .2;
+}
+.search h2 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 21px;
+}
+.search h2:after {
+    content: " ";
+    display: block;
+    margin: 10px auto;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+}
+.search input {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    width: 240px;
+    height: 36px;
+    margin: 0 20px 10px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 100;
+}
+
+.search .select {
+    display: inline-block;
+    width: 240px;
+    height: 36px;
+    margin: 0 20px;
+    /*overflow: hidden;*/
+    text-align: left;
+    background: #fff url(../images/task_1_7_9.png) no-repeat right 5px center;
+}
+.search .select:last-child {
+    background: #be4f48;
+}
+.search .select span {
+    color: #a8aaaa;
+    font-size: 14px;
+    line-height: 36px;
+    margin-left: 10px;
+}
+.options .option ul {
+    border: 1px solid #e4e3e5;
+    display: none;
+}
+.options .option li {
+    width: 198px;
+    height: 30px;
+    padding: 0 20px;
+    background-color: #e4e3e5;
+    font-size: 14px;
+    color: #a4a4a4;
+    line-height: 30px;
+}
+.options .option li:hover,
+.options .option li:active {
+    color: #fff;
+    background: #be4f48 url(../images/task_1_7_11.png) no-repeat 5px center;
+}
+input.select-1:checked~.options .select-1 .option ul {
+     display: block;
+ }
+input.select-2:checked~ .options .select-2 .option ul {
+    display: block;
+}

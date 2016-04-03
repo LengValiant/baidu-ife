@@ -1,0 +1,84 @@
+@font-face {
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F5F5F5;
+}
+.newspaper {
+    width: 892px;
+    height: 1386px;
+    margin: 0 auto;
+    padding: 0 44px;
+    background-color: #FFF;
+}
+.header {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 34px;
+    border-bottom: 2px solid #938E8C;
+}
+.header p.logo {
+    width: 110px;
+    height: 61px;
+    background-color: #D45D5C;
+    color: #FFF;
+    font:  12px SimHei, Serif;
+}
+.header span {
+    position: absolute;
+    bottom: 0;
+}
+.header time {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font:  12px SimHei, Serif;
+    color: #D45D5C;
+}
+.section1 {
+    position: relative;
+}
+.focus {
+    width: 641px;
+    margin-right: -20px;
+    position: relative;
+    overflow: hidden;
+}
+.focus .left,
+.focus .right {
+    width: 191px;
+    height: 301px;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+.left {
+    left: 0;
+    top: 0;
+    background-color: #7C964D;
+}
+.right {
+    right: 0;
+    background-color: #E2AAC5;
+}
+.focus-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 203px;
+    border-top: 2px solid #CC8091;
+}
+.after-content {
+    overflow: hidden;
+    margin: 40px 0;
+}
+.block {
+    float: left;
+    width: 200px;
+    margin-right: 13px;
+
+}
